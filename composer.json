@@ -18,7 +18,7 @@
     ],
     "require": {
         "dynamic/silverstripe-elemental-accordion": "^2.0",
-        "dynamic/silverstripe-elemental-baseobject": "^2.0",
+        "dynamic/silverstripe-elemental-baseobject": "master",
         "dynamic/silverstripe-elemental-blog": "^2.0",
         "dynamic/silverstripe-elemental-countdown": "^2.0",
         "dynamic/silverstripe-elemental-customer-service": "^2.0",
@@ -51,6 +51,12 @@
             "dev-master": "3.0.x-dev"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lars-lemon8/silverstripe-elemental-baseobject-ss411"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
